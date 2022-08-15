@@ -1,0 +1,53 @@
+{
+  "pages": [{
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "变色龙"
+      }
+    },
+    {
+      "path": "pages/chineseColor/chineseColor",
+      "style": {
+        "navigationBarTitleText": "中国色",
+        "enablePullDownRefresh": false
+      }
+    }, {
+      "path": "pages/feedback/feedback",
+      "style": {
+        "navigationBarTitleText": "意见建议",
+        "enablePullDownRefresh": false
+      }
+
+    }
+  ],
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#4976c9",
+    "list": [{
+        "iconPath": "/static/tabbar/platte00.png",
+        "selectedIconPath": "/static/tabbar/platte01.png",
+        "pagePath": "pages/index/index",
+        "text": "调色盘"
+      },
+      {
+        "iconPath": "/static/tabbar/layers00.png",
+        "selectedIconPath": "/static/tabbar/layers01.png",
+        "pagePath": "pages/chineseColor/chineseColor",
+        "text": "中国色"
+      },
+      {
+        "iconPath": "/static/tabbar/comment00.png",
+        "selectedIconPath": "/static/tabbar/comment01.png",
+        "pagePath": "pages/feedback/feedback",
+        "text": "写留言"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "变色龙",
+    "navigationBarBackgroundColor": "#000",
+    "backgroundColor": "#fff"
+  },
+  "uniIdRouter": {}
+}
