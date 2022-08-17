@@ -166,22 +166,16 @@
     computed: {
       // 设置 canvas 的颜色
       canvasStyle() {
-        return {
-          backgroundColor: '#' + this.rgbToHex(this.canvasColor)
-        }
+        return `background: #${this.rgbToHex(this.canvasColor)}`
       },
       // 设置 canvas 的文本颜色
       canvasHexStyle() {
         for (let key in this.canvasColor) {
           if (this.canvasColor[key] >= 130) {
-            return {
-              color: "black"
-            }
+            return "color: black"
           }
         }
-        return {
-          color: "white"
-        }
+        return "color: white"
       },
       // 设置 canvas 的 hex 文本
       canvasHex() {
@@ -191,7 +185,7 @@
   };
 </script>
 
-<style>
+<style scoped>
   .card-title {
     padding-top: 5px;
   }
@@ -203,7 +197,7 @@
   }
 
   .padding-r-10 {
-    padding-right: 10px;
+    margin-right: 10px;
   }
 
   .input-title {

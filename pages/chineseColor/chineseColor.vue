@@ -1,16 +1,17 @@
 <template>
   <view>
-    <view>
-      <uni-transition ref="trans" mode-class="fade" :duration="0" :show="true">
-        <view class="content">
+    <uni-transition ref="trans" mode-class="fade" :duration="0" :show="true">
+      <view class="content">
+        <view class="card-padding">
           <uni-row>
             <uni-col :xs="8" :sm="6" :md="4" :lg="3" :xl="2" v-for="(item, index) in colors" :key="index">
-              <ColorPanel :hsb="item.hsb" class="col-padding" @clickPanel="onClickPanel"></ColorPanel>
+              <ColorPanel :hsb="item.hsb" @clickPanel="onClickPanel"></ColorPanel>
+              <view style="padding-bottom: 10px;"></view>
             </uni-col>
           </uni-row>
         </view>
-      </uni-transition>
-    </view>
+      </view>
+    </uni-transition>
   </view>
 </template>
 
@@ -44,14 +45,14 @@
   }
 </script>
 
-<style>
+<style scoped>
   .content {
-    padding: 10px;
     width: 100vw;
     height: 100vh;
   }
 
-  .col-padding {
-    padding-bottom: 10px;
+  .card-padding {
+    padding-left: 20px;
+    padding-top: 15px;
   }
 </style>

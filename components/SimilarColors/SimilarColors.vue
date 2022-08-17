@@ -2,7 +2,8 @@
   <view class="content">
     <uni-row>
       <uni-col :xs="8" :sm="6" :md="4" :lg="3" :xl="2" v-for="(item, index) in similarColors" :key="index">
-        <ColorPanel :hsb="item" class="col-padding"></ColorPanel>
+        <ColorPanel :hsb="item"></ColorPanel>
+        <view style="padding-bottom: 10px;"></view>
       </uni-col>
     </uni-row>
   </view>
@@ -74,12 +75,8 @@
   }
 </script>
 
-<style>
+<style scoped>
   .content {
     padding-left: 20px;
-  }
-
-  .col-padding {
-    padding-bottom: 10px;
   }
 </style>

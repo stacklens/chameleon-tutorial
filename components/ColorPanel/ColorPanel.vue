@@ -100,28 +100,22 @@
         return this.rgbToHex(this.rgb)
       },
       panelColor() {
-        return {
-          backgroundColor: "#" + this.hex
-        }
+        return `background: #${this.hex}`
       },
       // 设置 canvas 的文本颜色
       canvasHexStyle() {
         for (let key in this.rgb) {
           if (this.rgb[key] >= 130) {
-            return {
-              color: "black"
-            }
+            return "color: black"
           }
         }
-        return {
-          color: "white"
-        }
+        return "color: white"
       },
     },
   }
 </script>
 
-<style>
+<style scoped>
   .container {
     display: flex;
     flex-direction: column;
