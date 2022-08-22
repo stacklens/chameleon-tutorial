@@ -1,9 +1,6 @@
 [![](https://img.shields.io/badge/uniapp-x.x-orange.svg)](https://www.python.org/downloads/release/python-370/)
-
 [![](https://img.shields.io/badge/vue-2.X-blue.svg)](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
-
 [![](https://img.shields.io/badge/HBuilder-3.5-green.svg)](https://docs.djangoproject.com/en/2.1/releases/2.1/)
-
 [![](https://img.shields.io/badge/license-CC_BY_NC_4.0-000000.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
 # uni-app开发微信小程序[色彩大师]
