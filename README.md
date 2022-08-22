@@ -15,6 +15,8 @@
 
 ![Cha-gif-00-04](https://blog.dusaiphoto.com/img-sufacego3/Cha-gif-00-04.gif)
 
+> 中国色/渐变色数据来源：[Frank Lin.](http://www.2kil.com/)/[Dlog_Shuai](https://ext.dcloud.net.cn/plugin?id=3558)
+
 功能简单实用。（自认为）
 
 你可以在这里查看小程序的完整功能：
@@ -48,15 +50,13 @@ uniapp 是一个跨平台的开发框架，细节就不讲了自己去[uniapp官
 
 > 微信小程序原生语言和 Vue 很像，但是细节上的差别却不少，转换到 Vue 多少也是有时间成本的。
 
-所以还犹豫啥赶紧学起来，我保证这个教程会短小精悍（仅七八个章节左右），花不了你几天时间的。
+所以还犹豫啥赶紧学起来，我保证这个教程会短小精悍（仅五个章节左右），花不了你几天时间的。
 
 ## 准备战斗
 
 介绍到此为止了。
 
 如果你对 uniapp 感兴趣，下一章节让我们继续。
-
-> 本文中出现的颜色数据来源：[Frank Lin.](http://www.2kil.com/)/[Dlog_Shuai](https://ext.dcloud.net.cn/plugin?id=3558)
 
 本文在公众号、[Github](https://github.com/stacklens/chameleon-tutorial)和[博客](https://www.dusaiphoto.com/)同步更新，传送门：
 
