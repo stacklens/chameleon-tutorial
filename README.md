@@ -25,7 +25,7 @@
 
 
 
-所以我就想着，干脆挑出里面的重点，写成**短篇入门教程**，给想要学习 uniapp 的同学，作为饭后甜点。
+所以我就想着，干脆挑出里面的重点，写成**短篇入门教程**，给想要学习 uniapp 的同学。
 
 **核心内容**：
 
@@ -44,9 +44,9 @@
 uniapp 是一个跨平台的开发框架，细节就不讲了自己去[uniapp官网](https://uniapp.dcloud.net.cn/)看，这里只说其最显著的优点：
 
 - 跨平台，只写**一套代码**，小程序、H5、原生 App 都能运行，对小团队来说，极大程度提高了效率（理论上）
-- 它继承并简化了 uniCloud 、uni-id、前端网页托管等一系列工具，进一步降低了开发难度。
+- 集成了 uniCloud 、uni-id、前端网页托管等一系列工具，降低了开发难度。
 
-更绝的是，它基于 Vue 进行开发。意思是即使你以后不用 uniapp ，但学了 Vue 也怎么都不亏。
+更优秀的是，它基于 Vue 进行开发。即使你以后不用 uniapp ，但学了 Vue 也怎么都不亏。
 
 > 微信小程序原生语言和 Vue 很像，但是细节上的差别却不少，转换到 Vue 多少也是有时间成本的。
 
@@ -58,9 +58,9 @@ uniapp 是一个跨平台的开发框架，细节就不讲了自己去[uniapp官
 
 如果你对 uniapp 感兴趣，下一章节让我们继续。
 
-本文在公众号、[Github](https://github.com/stacklens/chameleon-tutorial)和[博客](https://www.dusaiphoto.com/)同步更新，传送门：
+本文在公众号、[Github](https://github.com/stacklens/chameleon-tutorial/md)和[博客](https://www.dusaiphoto.com/)同步更新，传送门：
 
-![](https://www.dusaiphoto.com/static/img/QR.jpg)
+![Cha-QR](https://blog.dusaiphoto.com/img-sufacego3/Cha-QR.jpg)
 
 ## 许可协议
 
