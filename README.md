@@ -58,7 +58,7 @@ uniapp 是一个跨平台的开发框架，细节就不讲了自己去[uniapp官
 
 如果你对 uniapp 感兴趣，下一章节让我们继续。
 
-本文在公众号、[Github](https://github.com/stacklens/chameleon-tutorial/md)和[博客](https://www.dusaiphoto.com/)同步更新，传送门：
+本文在公众号、[Github](https://github.com/stacklens/chameleon-tutorial/tree/master/md)和[博客](https://www.dusaiphoto.com/)同步更新，传送门：
 
 ![Cha-QR](https://blog.dusaiphoto.com/img-sufacego3/Cha-QR.jpg)
 
