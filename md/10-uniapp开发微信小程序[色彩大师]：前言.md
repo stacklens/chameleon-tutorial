@@ -53,7 +53,9 @@ uniapp 是一个跨平台的开发框架，细节可以在[uniapp官网](https:/
 
 下载好 HBuilder 后，新建一个 uniapp 项目：
 
-![](https://blog.dusaiphoto.com/img/uniapp-cha-01.jpg)因为是做一个色彩方面的小程序，所以项目名称就是“变色龙”了。
+![](https://blog.dusaiphoto.com/img/uniapp-cha-01.jpg)
+
+因为是做一个色彩方面的小程序，所以项目名称就是“变色龙”了。
 
 Vue 版本是 2，一是 Vue 2 比较容易上手，二是项目中用到的插件需求。
 
