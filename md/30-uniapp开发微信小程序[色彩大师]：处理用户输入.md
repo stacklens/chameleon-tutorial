@@ -23,7 +23,7 @@
     <view class="form padding-10">
       <text class="padding-r-10 input-title">Hex色码</text>
       <uni-easyinput v-model="hexValue" placeholder="#ffc107" class="padding-r-10"></uni-easyinput>
-      <button @click="submit" size="mini" type="primary">确认</button>
+      <button @click="hexSubmit" size="mini" type="primary">确认</button>
     </view>
   </view>
 </template>
